@@ -35,17 +35,17 @@
                             <div class="menu-wrap">
                                 <ul class="menu">
                                     <li>
-                                        <a href="" class="btn-menu">
+                                        <a href="#section01" class="btn-menu">
                                             <div class="button-title">Витрина ассортимента</div>
                                         </a>
                                     </li>
                                     <li>
-                                        <a href="" class="btn-menu">
+                                        <a href="#section02" class="btn-menu">
                                             <div class="button-title">Логистика и условия</div>
                                         </a>
                                     </li>
                                     <li>
-                                        <a href="" class="btn-menu">
+                                        <a href="#section03" class="btn-menu">
                                             <div class="button-title">Получите прайс-лист</div>
                                         </a>
                                     </li>
@@ -262,14 +262,19 @@
                                     </div>
                                     <div class="frm-field field-half">
                                         <div class="frm-field-input">
-                                            <select class="form-input" required>
-                                                <option selected disabled hidden value="">Город</option>
-                                                <!--placeholder-->
+                                            <input
+                                                list="listpopup"
+                                                type="text"
+                                                class="form-input form-input-select"
+                                                placeholder="Город"
+                                            />
+                                            <datalist id="listpopup">
                                                 <option>Пункт списка</option>
                                                 <option>Пункт списка</option>
                                                 <option>Пункт списка</option>
                                                 <option>Пункт списка</option>
-                                            </select>
+                                                <option>Пункт списка</option>
+                                            </datalist>
                                         </div>
                                     </div>
                                 </div>

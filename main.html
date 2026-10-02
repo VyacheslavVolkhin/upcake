@@ -35,17 +35,17 @@
                             <div class="menu-wrap">
                                 <ul class="menu">
                                     <li>
-                                        <a href="" class="btn-menu">
+                                        <a href="#section01" class="btn-menu">
                                             <div class="button-title">Витрина ассортимента</div>
                                         </a>
                                     </li>
                                     <li>
-                                        <a href="" class="btn-menu">
+                                        <a href="#section02" class="btn-menu">
                                             <div class="button-title">Логистика и условия</div>
                                         </a>
                                     </li>
                                     <li>
-                                        <a href="" class="btn-menu">
+                                        <a href="#section03" class="btn-menu">
                                             <div class="button-title">Получите прайс-лист</div>
                                         </a>
                                     </li>
@@ -233,7 +233,7 @@
                 <!--bg-section-box-->
                 <div class="bg-section-box section-top-margin">
                     <!--title-box-->
-                    <div class="title-box item-animation item-atop">
+                    <div class="title-box item-animation item-atop" id="section01">
                         <h2 class="h2-title section-title">Витрина ассортимента</h2>
                     </div>
                     <!--/title-box-->
@@ -245,7 +245,7 @@
                                 <div class="slider swiper-wrapper">
                                     <!--sl-wrap-->
                                     <div class="sl-wrap swiper-slide item-animation item-atop">
-                                        <div class="item-tile-catalog tile-green">
+                                        <div class="item-tile-catalog tile-hover tile-green">
                                             <a href="" class="tile-link"></a>
                                             <div class="tile-photo-wrap">
                                                 <div class="elm-photo photo-contain">
@@ -268,7 +268,7 @@
                                     <!--/sl-wrap-->
                                     <!--sl-wrap-->
                                     <div class="sl-wrap swiper-slide item-animation item-atop">
-                                        <div class="item-tile-catalog tile-violet">
+                                        <div class="item-tile-catalog tile-hover tile-violet">
                                             <a href="" class="tile-link"></a>
                                             <div class="tile-photo-wrap">
                                                 <div class="elm-photo photo-contain">
@@ -291,7 +291,7 @@
                                     <!--/sl-wrap-->
                                     <!--sl-wrap-->
                                     <div class="sl-wrap swiper-slide item-animation item-atop">
-                                        <div class="item-tile-catalog tile-brown">
+                                        <div class="item-tile-catalog tile-hover tile-brown">
                                             <a href="" class="tile-link"></a>
                                             <div class="tile-photo-wrap">
                                                 <div class="elm-photo photo-contain">
@@ -314,7 +314,7 @@
                                     <!--/sl-wrap-->
                                     <!--sl-wrap-->
                                     <div class="sl-wrap swiper-slide item-animation item-atop">
-                                        <div class="item-tile-catalog tile-orange-dark">
+                                        <div class="item-tile-catalog tile-hover tile-orange-dark">
                                             <a href="" class="tile-link"></a>
                                             <div class="tile-photo-wrap">
                                                 <div class="elm-photo photo-contain">
@@ -337,7 +337,7 @@
                                     <!--/sl-wrap-->
                                     <!--sl-wrap-->
                                     <div class="sl-wrap swiper-slide item-animation item-atop">
-                                        <div class="item-tile-catalog tile-orange">
+                                        <div class="item-tile-catalog tile-hover tile-orange">
                                             <a href="" class="tile-link"></a>
                                             <div class="tile-photo-wrap">
                                                 <div class="elm-photo photo-contain">
@@ -564,7 +564,7 @@
                 <!--/title-box-->
 
                 <!--info-delivery-box-->
-                <div class="info-delivery-box">
+                <div class="info-delivery-box" id="section02">
                     <div class="photo-inner-wrap">
                         <div class="photo-first item-animation item-atop">
                             <div class="elm-photo">
@@ -714,7 +714,7 @@
                 <!--/tiles-box-->
 
                 <!--order-form-box-->
-                <div class="order-form-box">
+                <div class="order-form-box" id="section03">
                     <form action="/" class="form-inner-wrap">
                         <div class="title-box item-animation item-atop">
                             <h2 class="h2-title section-title">Получите прайс и&nbsp;попробуйте наши десерты</h2>
@@ -743,14 +743,19 @@
                                 </div>
                                 <div class="frm-field field-half">
                                     <div class="frm-field-input">
-                                        <select class="form-input" required>
-                                            <option selected disabled hidden value="">Город</option>
-                                            <!--placeholder-->
+                                        <input
+                                            list="list"
+                                            type="text"
+                                            class="form-input form-input-select"
+                                            placeholder="Город"
+                                        />
+                                        <datalist id="list">
                                             <option>Пункт списка</option>
                                             <option>Пункт списка</option>
                                             <option>Пункт списка</option>
                                             <option>Пункт списка</option>
-                                        </select>
+                                            <option>Пункт списка</option>
+                                        </datalist>
                                     </div>
                                 </div>
                             </div>
@@ -903,14 +908,19 @@
                                     </div>
                                     <div class="frm-field field-half">
                                         <div class="frm-field-input">
-                                            <select class="form-input" required>
-                                                <option selected disabled hidden value="">Город</option>
-                                                <!--placeholder-->
+                                            <input
+                                                list="listpopup"
+                                                type="text"
+                                                class="form-input form-input-select"
+                                                placeholder="Город"
+                                            />
+                                            <datalist id="listpopup">
                                                 <option>Пункт списка</option>
                                                 <option>Пункт списка</option>
                                                 <option>Пункт списка</option>
                                                 <option>Пункт списка</option>
-                                            </select>
+                                                <option>Пункт списка</option>
+                                            </datalist>
                                         </div>
                                     </div>
                                 </div>

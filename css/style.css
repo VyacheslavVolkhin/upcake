@@ -1525,32 +1525,72 @@ html.with-fancybox body.hide-scrollbar {
 .tile-green {
   background: var(--clr-green);
 }
+.tile-green.tile-hover:hover {
+  -webkit-filter: brightness(1.05);
+  filter: brightness(1.05);
+}
 .tile-orange {
   background: var(--clr-orange);
+}
+.tile-orange.tile-hover:hover {
+  -webkit-filter: brightness(1.05);
+  filter: brightness(1.05);
 }
 .tile-violet {
   background: var(--clr-violet);
 }
+.tile-violet.tile-hover:hover {
+  -webkit-filter: brightness(1.05);
+  filter: brightness(1.05);
+}
 .tile-brown {
   background: var(--clr-brown);
+}
+.tile-brown.tile-hover:hover {
+  -webkit-filter: brightness(1.05);
+  filter: brightness(1.05);
 }
 .tile-orange-dark {
   background: var(--clr-orange-dark);
 }
+.tile-orange-dark.tile-hover:hover {
+  -webkit-filter: brightness(1.05);
+  filter: brightness(1.05);
+}
 .tile-green-light {
   background: var(--clr-green-light);
+}
+.tile-green-light.tile-hover:hover {
+  -webkit-filter: brightness(1.05);
+  filter: brightness(1.05);
 }
 .tile-orange-light {
   background: var(--clr-orange-light);
 }
+.tile-orange-light.tile-hover:hover {
+  -webkit-filter: brightness(1.05);
+  filter: brightness(1.05);
+}
 .tile-violet-light {
   background: var(--clr-violet-light);
+}
+.tile-violet-light.tile-hover:hover {
+  -webkit-filter: brightness(1.05);
+  filter: brightness(1.05);
 }
 .tile-brown-light {
   background: var(--clr-brown-light);
 }
+.tile-brown-light.tile-hover:hover {
+  -webkit-filter: brightness(1.05);
+  filter: brightness(1.05);
+}
 .tile-orange-dark-light {
   background: var(--clr-orange-dark-light);
+}
+.tile-orange-dark-light.tile-hover:hover {
+  -webkit-filter: brightness(1.05);
+  filter: brightness(1.05);
 }
 @media (max-width: 767px) {
   .item-tile-info .tile-title br {
@@ -1990,6 +2030,9 @@ html.with-fancybox body.hide-scrollbar {
 .bg-section-box.section-top-margin {
   padding-top: 70px;
   margin-top: calc(-1 * var(--sectionMarginSmall) - 50px);
+}
+[id] {
+  scroll-margin-top: 80px;
 }
 @media (max-width: 1023px) {
   .tiles-box .slider-wrap {
