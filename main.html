@@ -567,9 +567,11 @@
                 <div class="info-delivery-box" id="section02">
                     <div class="photo-inner-wrap">
                         <div class="photo-first item-animation item-atop">
-                            <div class="elm-photo">
-                                <img src="./img/map.png" alt="" class="" />
-                            </div>
+                            <picture class="elm-photo">
+                                <source srcset="./img/map.png" media="(min-width: 768px)" />
+                                <source srcset="./img/map-m.png" media="" />
+                                <img src="./img/map.png" alt="" />
+                            </picture>
                         </div>
                         <div class="photo-second item-animation item-atop">
                             <div class="elm-photo">
